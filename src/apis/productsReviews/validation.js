@@ -13,7 +13,7 @@ const productReviewSchema = {
   },
   rate: {
     in: ["body"],
-    isNumber: {
+    isString: {
       errorMessage:
         "Description is a mandatory field and needs to be a string!",
     },
