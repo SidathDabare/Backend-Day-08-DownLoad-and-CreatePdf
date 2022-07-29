@@ -14,7 +14,7 @@ const productsReviewsJSONPath = join(dataFolderPath, "productsReviews.json")
 
 const productsPublicFolderPath = join(
   process.cwd(),
-  "../Backend/public/img/products"
+  "../Backend-Day-08-DownLoad-and-CreatePdf/public/img/products"
 )
 
 export const getProducts = () => readJSON(productsJSONPath)
